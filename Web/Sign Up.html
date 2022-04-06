@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Pikiranku Traveling is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Pikiranku Traveling</title>
+            <!-- Styles -->
+            <script src="https://kit.fontawesome.com/c593721c74.js" crossorigin="anonymous"></script>
+            <link href="css/bootstrap.css" rel="stylesheet">
+            <link href="css/fontawesome-all.css" rel="stylesheet">
+            <link href="css/swiper.css" rel="stylesheet">
+            <link href="css/magnific-popup.css" rel="stylesheet">
+            <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- Styles -->
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="logo_PT.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <img class="rotate_03" src="logo_PT.png">
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no"
+    />
+    <meta name="author" content="Eugenio Segala" />
+    <meta
+      name="description"
+      content="An extremely easy and clear SlideShow Background dev in Vanilla JS."
+    />
+    <meta
+      name="keywords"
+      content="javascript,background-image,slides,slider,slideshow,gallery,js"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="logo_PT.png" />
+
+    <style>
+      .ct {
+        height: 95.8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      body,
+      html {
+        height: 100%;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .bg-img {
+        /* The image used */
+        background-image: url("img_nature.jpg");
+
+        /* Control the height of the image */
+        min-height: 380px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      /* Add styles to the form container */
+      .container {
+        position: absolute;
+        top: -20px;
+        right: 50px;
+        border-radius: 25px;
+        margin: 20px;
+        max-width: 300px;
+        padding: 16px;
+        background-color: white;
+        opacity: 95%;
+      }
+
+      /* Full-width input fields */
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      /* Set a style for the submit button */
+      .btn {
+        background-color: #3c3d59;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      .btn:hover {
+        opacity: 1;
+      }
+
+      .btn-sld-lg {
+        display: inline-block;
+        padding: 16px 20px;
+        border: 0.125rem solid #3c3d59;
+        border-radius: 0.25rem;
+        background-color: #3c3d59;
+        color: #fff;
+        font: 700 0.75rem/0 "Montserrat", sans-serif;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+
+      .btn-sld-lg:hover {
+        background-color: transparent;
+        color: #3c3d59;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <img class="rotate_03" src="logo_PT.png" />
+      </div>
+    </div>
+    <!-- end of preloader -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top hidden"
+    ></nav>
+    <a class="navbar-brand logo-image"
+      ><img
+        src="logo_PT.png"
+        alt="alternative"
+        style="
+          height: 50px;
+          width: 50px;
+          margin-left: 25px;
+          margin-top: 15px;
+        " /></a
+    ><span style="color: white"></span>
+    <div class="bg-img">
+       
+      <form action="sign_up.php" class="container" method="POST">
+        <h2 style="color: #3c3d59;">Sign Up</h2>
+
+        <label for="email" style="color: #3c3d59;"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+
+        <label for="psw" style="color: #3c3d59;"><b>Password</b>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          id="password"
+
+          required
+          onkeyup="check()"
+        />
+      </label>
+        <label for="psw" style="color: #3c3d59; margin-bottom: -20px;"><b>Confirm Password</b>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="confirm"
+          id="confirm_password"
+          required
+          onkeyup="check()"
+        />
+      </label>
+      <span id='message'></span>
+
+        <button style="margin-top: 20px;" id="submit" type="submit" class="btn btn-sld-lg">Sign Up</button>
+        <p></p>
+        Sudah Punya akun ?
+        <a href="index.html" style="color: #6872a6; font-weight: bold">Sign In</a>
+      </form>
+    </div>
+
+    <script>
+var check = function() {
+  if (document.getElementById('password').value ==
+    document.getElementById('confirm_password').value) {
+    document.getElementById('message').style.color = 'green';
+    document.getElementById('message').innerHTML = 'password match';
+  } else {
+    document.getElementById('message').style.color = 'red';
+    document.getElementById('message').innerHTML = 'password do not matching';
+  }
+}
+      </script>
+
+    <script src="js/easy_background.js"></script>
+
+    <script>
+      easy_background(
+        "body",
+
+        {
+          slide: [
+            "img/1.jpg",
+            "img/2.jpg",
+            "img/3.jpg",
+            "img/4.jpg",
+            "img/5.jpg",
+          ],
+
+          delay: [2000, 2000, 2000, 2000, 2000],
+        }
+      );
+    </script>
+
+  
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <!-- <script src="https://kit.fontawesome.com/c593721c74.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
